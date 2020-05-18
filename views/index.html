@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Abfahrtsapp</h1>
+    <a href="/about">go to about page</a>
+<!--   <button id="displayTodosButton">Display Todos</button>
+  <button id="toggleAllButton">Toggle All</button> -->
+
+  <div>
+ <!--  <button onclick="handlers.displayTodos()">Display Todos</button> -->
+  <button onclick="handlers.toggleAll()">Toggle All</button>
+  </div>
+
+<div>
+  <button onclick="handlers.addTodo()">Add</button>
+  <label >name:</label>
+  <input id="addTodoTextInput" type="text">
+  <label >position:</label>
+  <input id="addTodoTextInput2" type="text">
+  <label >notiz:</label>
+  <input id="addTodoTextInput3" type="text">
+  
+</div>
+
+<div>
+  <button onclick="handlers.changeTodo()">Change Damage</button>
+  <label >Index:</label>
+  <Input id="changeTodoPositionInput"  type="number">
+    <label >name:</label>
+  <Input id="changeTodoTextInput"  type="text">
+    <label >position:</label>
+    <Input id="changeTodoTextInput2"  type="text">
+      <label >notiz:</label>
+      <Input id="changeTodoTextInput3"  type="text">
+</div>
+
+<div>
+  <button onclick="handlers.searchTodo()">Search</button>
+  <input id="searchTodoInput" type="text">
+</div>
+
+<div>
+  <button onclick="handlers.deleteTodo()">Delete</button>
+  <input id="deleteTodoPositionInput" type="number">
+</div>
+
+<div>
+  <button onclick ="handlers.toggleCompleted()">Toggle Completed</button>
+  <Input id="toggleCompletedPositionInput" type="number">
+</div>
+
+<ul>
+</ul>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
+
